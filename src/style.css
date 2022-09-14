@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: arial;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(209, 100%, 55%);
+  align-items: center;
+}
+
+header {
+  color: white;
+}
+
+section {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+  width: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
+}
+
+div {
+  text-align: center;
+  padding: 8px;
+  
+}
+
+footer {
+  color: white;
+  font-style: italic;
+}
